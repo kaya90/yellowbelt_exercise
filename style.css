@@ -1,0 +1,236 @@
+* {
+    margin: 0 0 20px 0;
+
+    font-family: sans-serif;
+
+    color: white;/*
+    outline: dotted red 1px;*/
+}
+p {
+    font-size: 12px;
+}
+body {
+    margin-top: 20px;
+
+    background-color: #1a1a1a;
+}
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 185px;
+    padding-right: 1%;
+}
+.header p {
+    display: inline-block;
+
+    text-align: right;
+}
+.logo {
+    display: inline-block;
+    width: 300px;
+    height: 150px;
+
+    text-align: center;
+}
+.logo img {
+    position: relative;
+    top: 25%;
+}
+.contact {
+    position: relative;
+    right: -256px;
+
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+    padding: 50px;
+
+    text-align: right;
+    vertical-align: top;
+}
+.navigation {
+    display: block;
+    width: 100%;
+    height: 35px;
+
+    background-color: gray;
+}
+.navigation ul {
+    padding: 10px 10px 10px 20px;
+
+    font-size: 13px;
+    font-weight: 900;
+    list-style: none;
+
+    color: gray;
+}
+.navigation li {
+    display: inline;
+    padding: 3px 10px;
+}
+.navigation li ~ li {
+    border-left: 1px solid #bababa;
+}
+.navigation a {
+    padding: 5px;
+
+    text-decoration: none;
+}
+.main_content {
+    width: 100%;
+    height: 600px;
+
+    vertical-align: top;
+}
+.slide_bar {
+    width: 99%;
+    height: 355px;
+
+    background-image: url("image/main_pic.png");
+}
+.sub_menu {
+    height: 120px;
+    padding-left: 20px;
+}
+.icons {
+    display: inline-block;
+}
+.text {
+    display: inline-block;
+    width: 150px;
+}
+#id img {
+    display: inline-block;
+    width: 40px;
+    height: auto;
+
+    vertical-align: top;
+}
+#fix {
+    position: relative;
+    top: 5;
+}
+h3 {
+    font-family: serif;
+    font-size: 13px;
+
+    color: orange;
+}
+.text {
+    display: inline-block;
+
+    vertical-align: top;
+}
+.info {
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    padding-left: 20px;
+
+    vertical-align: top;
+}
+.info h1 {
+    font-size: 20px;
+    font-weight: 200;
+}
+.info_text {
+    width: 550px;
+}
+.info_button {
+    position: relative;
+    top: -68px;
+
+    display: inline-block;
+    float: right;
+    width: 150px;
+
+    vertical-align: top;
+}
+button {
+    padding: 10px 25px;
+
+    font-size: 12px;
+
+    border-radius: 10px;
+    background-color: orange;
+}
+.portfolio {
+    padding-left: 20px;
+}
+.portfolio h1 {
+    font-family: serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+.portfolio a {
+    padding-right: 10px;
+
+    font-size: 11px;
+
+    text-decoration: none;
+
+    color: orange;
+}
+.right {
+    text-align: right;
+}
+.onepcssgrid-1000,
+.onepcssgrid-1200 {
+    padding: 0 0 0 1%; /* THAT'S THE NAME ;) */
+    margin: 0 auto;
+}
+
+.onepcssgrid-1200 {
+    max-width: 1220px;
+}
+
+.onepcssgrid-1000 {
+    max-width: 1020px;
+}
+
+.onerow {
+    padding: 0 10px;
+    clear: both;
+}
+.col3 {
+    padding: 20px 0;
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+    text-align: left;
+}
+.portfolio {
+    text-align: left;
+}
+
+
+@media all and (max-width: 768px) {
+    .onerow {
+        margin: 0 0 100px;
+    }
+}
+.col3 {
+    float: left;
+    margin: 0 3% 0 0;
+}
+
+.col3.last {
+    margin: 0;
+}
+
+.col3 {
+    width: 22.5%;
+}
+
+@media all and (min-width: 1024px) {
+    .onepcssgrid-1000 {
+        max-width: 1000px;
+    }
+
+    .onepcssgrid-1000 .onerow {
+        padding: 0;
+    }
+}
